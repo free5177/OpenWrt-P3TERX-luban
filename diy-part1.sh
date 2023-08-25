@@ -16,4 +16,5 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git nft-fullcone https://github.com/fullcone-nat-nftables/nft-fullcone' >>feeds.conf.default
+
+git clone https://github.com/fullcone-nat-nftables/nft-fullcone.git package/OpenAppFilter
